@@ -25,7 +25,10 @@ public class League {
         Player player3 = new Player();
         player3.playerGame = "Geoffrey Caucer"; 
         
-        Player thePalyer[] ={player1,player2,player3};
+        Player thePlayers[] = new Player[]{player1,player2,player3};
+        //Player[] thePlayers = {player1,player2,player3};
+        //Player thePlayers[] = {player1,player2,player3};
+        
         
         Team team1 = new Team();
         team1.teamName = "The Greens";
@@ -33,7 +36,7 @@ public class League {
         //Steo 10
        // player1.playerGame = "Robert Service";
         
-        team1.playerArray = thePalyer;
+        team1.playerArray = thePlayers;
         
         //step 11
         Team team2 = new Team();
